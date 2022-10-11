@@ -39,7 +39,7 @@ header{
 
 
 #about{
-   margin: auto;
+   margin: 19px;
    width: 300px;
    
 }
@@ -112,10 +112,12 @@ article{
 .content-detail {
    margin: 16px 0;
 }
+
 /* NEXT */
 
 #next {
-   margin: 0 25%;
+   margin:0 25%;
+   
 }
 
 /* SKILL */
@@ -127,19 +129,23 @@ article{
 
 /* DETAIL SKILL */
 
-.skill_format{
-   display: flex;
+.skills_format {
+   display: flex;    
    justify-content: space-between;
-   gap: 10%;
+   /* gap: 10%; */
+   gap: 32px;
+  
 }
 
-#skills_list {
+.skills_list {
    width: 100%;
-   padding: 0 16px;
+   padding: 0 16px; 
+  
 }
 
 .skills_item {
-   margin: 8px -16px;
+   /* margin: 8px -16px; */
+   margin: 8px 0;
    display: flex;
    justify-content: space-between;
 }
@@ -148,18 +154,6 @@ article{
    background-color: #ffff56;
 }
 
-/* RATING */
-
-.fa-regular {
-   opacity: 0.2;
-}
-.fa-regular:hover {
-   cursor: pointer;
-}
-.rating--active {
-   color:#0cd1d1;
-   opacity: 1;
-}
 
 /* FOOTER SHILL */
 
@@ -170,6 +164,7 @@ article{
 
 #skill_footer p1 {
    font-style: italic;
+   opacity: .6;
 }
 
 button {
